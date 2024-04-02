@@ -87,4 +87,9 @@ function listProducts(){
     console.log(demo);
     document.getElementById("woman").innerHTML +=demo;
   }
+  localStorage.setItem('Product',JSON.stringify(man));
+  localStorage.getItem('Product',JSON.stringify(man));
+  localStorage.setItem('listProduct',JSON.stringify(woman));
+  localStorage.getItem('listProduct',JSON.stringify(woman));
+
 }
